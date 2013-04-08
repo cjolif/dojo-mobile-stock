@@ -6,7 +6,7 @@ require([
 	"dojox/mobile/ListItem",
 	"dojox/mobile/parser",
 	"dojox/mobile",
-// include it only if you intend this to be runnable on IE & FF as well
+// include it only if you intend this to be runnable on IE < 10 & FF as well
 //	"dojox/mobile/compat",
 	"dojox/mobile/FixedSplitter",
 	"dojox/mobile/ScrollableView",
@@ -19,7 +19,7 @@ require([
 	"dojox/charting/plot2d/Lines",
 	"dojox/charting/plot2d/Grid"
 ], function(dom, arr, ready, registry, ListItem){
-	function details(event){
+	function details(){
 		var id = this.id;
 		// get the details (news, figures & chart) for that given id
 		// xhr.get(...) to get back data from the server, here we are faking it
