@@ -1,0 +1,25 @@
+{
+	"id": "mobileStock",
+	"loaderConfig": {
+		"paths": {
+			"mobileStock": "../mobileStock"
+		}
+	},
+	"dependencies": [
+	],
+	"modules": [
+	],
+	"controllers": [
+		"dojox/app/controllers/Load",
+		"dojox/app/controllers/Transition",
+		"dojox/app/controllers/Layout",
+		"dojox/app/controllers/History"
+	],
+	"defaultView": "list",
+	"views": {
+		"list": {
+			"controller": "mobileStock/list",
+			"template": "mobileStock/list.html"
+		}
+	}
+}
